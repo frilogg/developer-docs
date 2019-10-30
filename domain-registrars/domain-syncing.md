@@ -50,7 +50,7 @@ function modulename_Sync($params) {
 ```
 
 {{% notice tip %}}
-Settings relating to domain syncing are in the **Setup > General Settings > Domains** area. There are 3 key settings:
+Settings relating to domain syncing are in the **Setup > Automation Settings > Domain Sync Setting** area. There are 3 key settings:
 * ***Domain Sync Enabled*** - Check to allow the domain sync cron to actually run.
 * ***Sync Next Due Date*** - Enable this setting to update next due date to match the expiry field as part of the sync.
 * ***Domain Sync Notify Only*** - Enable this to allow WHMCS to run the sync checks and report any inconsistencies. But, no changes to the domains will occur. With this enabled you receive an email report listing any discrepancies between the registrar and WHMCS.
